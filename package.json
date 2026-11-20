@@ -1,0 +1,25 @@
+{
+  "name": "hostnote",
+  "version": "0.1.0",
+  "description": "Point at what's wrong on your running app. Your coding agent fixes it.",
+  "keywords": ["notes", "review", "dev-server", "proxy", "agent", "tailscale"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clementrog/hostnote.git"
+  },
+  "homepage": "https://github.com/clementrog/hostnote",
+  "bin": {
+    "hostnote": "hostnote.mjs"
+  },
+  "files": [
+    "hostnote.mjs",
+    "overlay.js"
+  ],
+  "scripts": {
+    "test": "node check.mjs"
+  },
+  "engines": {
+    "node": ">=22.15.0"
+  }
+}
